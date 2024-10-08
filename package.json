@@ -8,7 +8,8 @@
     "start": "next start",
     "serve": "npx serve@latest out",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "gh-pages": "npm run build && mv out docs"
   },
   "dependencies": {
     "@apollo/client": "^3.11.8",
