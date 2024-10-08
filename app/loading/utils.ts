@@ -7,7 +7,7 @@
  */
 export const layoutTester = async (searchParams: Record<string, string>) => {
   if (process.env.NODE_ENV !== 'development') {
-        return;
+    return;
   }
 
   if (typeof searchParams.loading !== 'undefined') {
