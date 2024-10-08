@@ -5,8 +5,8 @@
 
 'use client';
 
-import { ApolloWrapper } from "./ApolloWrapper";
-import {UsingApolloNextAppClient} from "./UsingApolloNextAppClient";
+import { ApolloWrapper } from './ApolloWrapper';
+import { UsingApolloNextAppClient } from './UsingApolloNextAppClient';
 
 export default function GraphQLApolloNextAppClient() {
   return (

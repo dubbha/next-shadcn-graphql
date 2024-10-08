@@ -7,7 +7,7 @@ export default function Error({ error, reset }: { error: Error; reset: () => voi
 return (
   <div>
     <div>Error below the root layout: {error.message}</div>
-    <button onClick={reset}>Try again</button>
+              <button onClick={reset}>Try again</button>
   </div>
   );
 }
