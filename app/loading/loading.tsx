@@ -1,3 +1,3 @@
 export default function Loading() {
-    return <div>Main Segment Loading...</div>
+  return <div>Main Segment Loading...</div>;
 }

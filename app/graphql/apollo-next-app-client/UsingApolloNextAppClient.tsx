@@ -1,5 +1,5 @@
-import React from 'react'
-import { gql, useQuery } from '@apollo/client'
+import React from 'react';
+import { gql, useQuery } from '@apollo/client';
 
 const GET_ALL_TODOS = gql`
   query {
@@ -17,9 +17,9 @@ export const UsingApolloNextAppClient = () => {
 
   return (
     <ul>
-      { data.countries.map((country: {name: string}) => (
+      {data.countries.map((country: { name: string }) => (
         <li key={country.name}>{country.name}</li>
       ))}
     </ul>
-  )
-}
+  );
+};

@@ -4,10 +4,10 @@
 'use client';
 
 export default function Error({ error, reset }: { error: Error; reset: () => void }) {
-return (
-  <div>
-    <div>Error below the root layout: {error.message}</div>
-    <button onClick={reset}>Try again</button>
-  </div>
+  return (
+    <div>
+      <div>Error below the root layout: {error.message}</div>
+      <button onClick={reset}>Try again</button>
+    </div>
   );
 }
