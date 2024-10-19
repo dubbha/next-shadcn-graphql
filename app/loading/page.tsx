@@ -1,7 +1,9 @@
-import Image from 'next/image';
-import { layoutTester } from './utils';
+import Image from "next/image";
+import { layoutTester } from "./utils";
 
-export default async function Loading(props: { searchParams: Record<string, string> }) {
+export default async function Loading(props: {
+  searchParams: Record<string, string>;
+}) {
   await layoutTester(props.searchParams);
 
   return (
@@ -16,7 +18,7 @@ export default async function Loading(props: { searchParams: Record<string, stri
       />
       <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left">
         <li className="mb-2">
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className="rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]">
             app/page.tsx
           </code>

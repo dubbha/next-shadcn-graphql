@@ -1,6 +1,14 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript", "prettier", "plugin:prettier/recommended"],
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ]
   }
 }

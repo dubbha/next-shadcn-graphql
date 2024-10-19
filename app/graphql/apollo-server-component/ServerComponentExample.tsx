@@ -1,5 +1,5 @@
-import { gql } from '@apollo/client';
-import { getClient } from './ApolloClient';
+import { gql } from "@apollo/client";
+import { getClient } from "./ApolloClient";
 
 const GET_ALL_TODOS = gql`
   query {

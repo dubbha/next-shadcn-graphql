@@ -7,7 +7,7 @@
  * http://localhost:3000/loading?loading=5000&error="Custom error message"
  */
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function LoadingLayout({
   children,

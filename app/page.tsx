@@ -1,6 +1,6 @@
-import Navigation from '@/components/Navigation';
-import { Button } from '@/components/ui/button';
-import Image from 'next/image';
+import Navigation from "@/components/Navigation";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm sm:text-left">
           <li className="mb-2">
-            Get started by editing{' '}
+            Get started by editing{" "}
             <code className="rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]">
               app/page.tsx
             </code>

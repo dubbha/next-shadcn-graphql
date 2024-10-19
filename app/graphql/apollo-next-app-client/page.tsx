@@ -3,10 +3,10 @@
 // set up a local mock server at localhost:4000 to test these:
 // https://www.apollographql.com/blog/4-simple-ways-to-call-a-graphql-api#the-example-api
 
-'use client';
+"use client";
 
-import { ApolloWrapper } from './ApolloWrapper';
-import { UsingApolloNextAppClient } from './UsingApolloNextAppClient';
+import { ApolloWrapper } from "./ApolloWrapper";
+import { UsingApolloNextAppClient } from "./UsingApolloNextAppClient";
 
 export default function GraphQLApolloNextAppClient() {
   return (

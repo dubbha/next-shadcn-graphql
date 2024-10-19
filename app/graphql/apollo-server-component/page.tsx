@@ -1,6 +1,6 @@
-import { Suspense } from 'react';
-import ServerComponentExample from './ServerComponentExample';
-import { ApolloWrapper } from './ApolloWrapper';
+import { Suspense } from "react";
+import ServerComponentExample from "./ServerComponentExample";
+import { ApolloWrapper } from "./ApolloWrapper";
 //Server component page example
 export default function ApolloServerComponent() {
   return (
