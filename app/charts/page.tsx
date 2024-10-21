@@ -1,4 +1,4 @@
-import { AnotherChart } from "@/components/anotherChart";
+import { AnotherChart } from "@/components/AnotherChart";
 import { ChartTry } from "@/components/chartTry";
 
 export default function CartsPage() {
